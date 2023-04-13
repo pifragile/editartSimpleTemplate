@@ -3,7 +3,8 @@
 This is a simple, unopinionated template for creating projects on EditART.
 
 ## Create your art
-- Use the variables `m0`, `m1`, `m2`, `m3`, `m4` which are tha values of the 5 sliders.
+- Make a sketch that **renders fast**.  
+- Use the variables `m0`, `m1`, `m2`, `m3`, `m4` which are the values of the 5 sliders.
 > **_IMPORTANT:_** Every single part of the output must ONLY depend on the values `m0`..`m4`. Otherwise the pieces will change after minting.
 - The entrypoint is the `drawArt()` function which will be triggered automatically everytime the sliders change. Find an example in `index.js`.
 - Call `triggerPreview()` at the point in time when the preview image should be renderd.
@@ -12,15 +13,13 @@ This is a simple, unopinionated template for creating projects on EditART.
 - Your artwork should be able to handle window resizing. An event listener is active that will call `drawArt()` every time the window size changes.
 - If you use any libraries, include all source files in the project. Do not load any dependencies from the internet.
 
-- Make a sketch that **renders fast** for the best user experience.
-
 
 ## Randomness
 
 If you need randomness, you can use the functions `randomM0()`..`randomM4()`
 these functions provide randomness seeded by the respective values `m0`..`m4`.  
 > **_NOTE:_** You can set the `randomSeed` variable in `index.html` to any string you like in order to distinguish your randomness from the one of other projects.
-> **_IMPORTANT:_** Don't use any source of randomness other than the one described below.
+> **_IMPORTANT:_** Don't use any source of randomness other than the one described above.
 
 ## Testing
 In order to test your project with the EditART platform, start a local development server of your project and paste its address in [the sandbox](https://www.editart.xyz/sandbox) and you can start playing around with the sliders.
