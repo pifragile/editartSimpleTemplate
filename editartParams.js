@@ -64,7 +64,7 @@ function triggerDraw() {
 window.addEventListener("resize", (e) => triggerDraw());
 
 function getRNG(num) {
-    return sfc32(...cyrb128(randomSeed + num.toString()));
+    return sfc32(...cyrb128(randomSeedEditArt + num.toString()));
 }
 
 function seedRandomness() {
