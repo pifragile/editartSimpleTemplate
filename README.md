@@ -12,6 +12,7 @@ This is a simple, unopinionated template for creating projects on EditART.
 - If your project is animated, please restart the animation on each call to `drawArt()`
 - Your artwork should be able to handle window resizing. An event listener is active that will call `drawArt()` every time the window size changes.
 - If you use any libraries, include all source files in the project. Do not load any dependencies from the internet.
+- All token previews will be in square format.
 
 
 ## Randomness
