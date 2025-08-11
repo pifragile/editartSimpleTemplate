@@ -24,6 +24,7 @@ these functions provide randomness seeded by the respective values `m0`..`m4`.
 
 ## Testing
 In order to test your project with the EditART platform, start a local development server of your project and paste its address in [the sandbox](https://www.editart.xyz/sandbox) and you can start playing around with the sliders.
+- Remember to test your sketch through the full range of each parameter to ensure correct behaviour at its extreme values
 
 
 ## Project ready or questions?
