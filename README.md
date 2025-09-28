@@ -22,6 +22,12 @@ these functions provide randomness seeded by the respective values `m0`..`m4`.
 > **_NOTE:_** You can set the `randomSeedEditArt` variable in `index.html` to any string you like in order to distinguish your randomness from the one of other projects.
 > **_IMPORTANT:_** Don't use any source of randomness other than the one described above.
 
+
+## Sliderless Mode
+
+If you want to use the sliderless feature as can be seen in [this example](https://www.editart.xyz/series/KT1VwpEbuWsxevM9JGF9dG5JXT4bmpNDYp3h), you can simply use `randomFull()` as your randomness function and test in the [sliderless sandbox](https://www.editart.xyz/sandbox?sliderLess=true).
+
+
 ## Testing
 In order to test your project with the EditART platform, start a local development server of your project and paste its address in [the sandbox](https://www.editart.xyz/sandbox) and you can start playing around with the sliders.
 
