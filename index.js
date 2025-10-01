@@ -1,8 +1,9 @@
 // example
 const canvas = document.createElement("canvas");
 canvas.id = "myCanvas";
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+// Use innerWidth and innerHeight if you want the screen format rather than a square. 
+canvas.width = Math.min(window.innerWidth, window.innerHeight);
+canvas.height = Math.min(window.innerWidth, window.innerHeight);
 canvas.style.zIndex = 8;
 canvas.style.position = "absolute";
 
@@ -13,8 +14,8 @@ const ctx = canvas.getContext("2d");
 
 function drawArt() {
     // example
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+    const width = Math.min(window.innerWidth, window.innerHeight);
+    const height = Math.min(window.innerWidth, window.innerHeight);
     canvas.width = width;
     canvas.height = height;
     ctx.clearRect(0, 0, width, height);
