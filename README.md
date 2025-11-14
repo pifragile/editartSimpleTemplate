@@ -29,6 +29,7 @@ If you want to use the sliderless feature as can be seen in [this example](https
 
 ## Testing
 In order to test your project with the EditART platform, start a local development server of your project and paste its address in [the sandbox](https://www.editart.xyz/sandbox) and you can start playing around with the sliders.
+- Remember to test your sketch through the full range of each parameter to ensure correct behaviour at its extreme values
 
 
 ## Project ready or questions?
